@@ -38,3 +38,28 @@ EXPLANATION:
 * "Generated a Test Summary Report": This shows leadership and communication skills. It proves you know that testing isn't done until you communicate the final results to stakeholders (like developers or product managers).
 * "tracking execution metrics, achieving an 80% pass rate": More numbers! Providing a pass rate shows you know how to calculate and present testing metrics.
 * "documenting UI misalignments and form validation failures": This adds realism to your project. By giving specific examples of the bugs you found, it proves this was a real exercise and not just theoretical knowledge.
+
+--------------------------------------------------------------------------------
+PROJECT FLOWCHART: HOW THE TESTING WORKED
+
+Here is a visual breakdown of the testing flow. This is great for explaining your process during an interview:
+
+1. THE E-COMMERCE USER JOURNEY (What you tested)
+[Login] ---> [Inventory/Catalog] ---> [Add to Cart] ---> [Checkout Info] ---> [Complete Order]
+
+
+2. THE QA TESTING LIFECYCLE (How you tested it)
+
+   [Plan Test Strategy]
+          |
+          v
+   [Design Test Cases] (Identify Happy Paths & Negative Scenarios)
+          |
+          v
+   [Execute Test Suite] ----> (Pass) ---> [Log as Successful]
+          |
+          v (Fail)
+   [Log Defect/Bug Report]
+          |
+          v
+   [Generate Summary Report] (Calculate metrics like 80% pass rate)
